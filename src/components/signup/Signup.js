@@ -1,9 +1,9 @@
 // src/components/Signup.js
 import React, { useState } from "react";
-import { auth } from "../firebaseConfig";
+import { auth } from "../../firebaseConfig";
 import { createUserWithEmailAndPassword } from "firebase/auth";
 import { useNavigate } from "react-router-dom";
-import "./Login.css";
+import "../Login.css";
 
 const Signup = () => {
   const [email, setEmail] = useState("");
@@ -14,7 +14,7 @@ const Signup = () => {
     e.preventDefault();
     try {
       await createUserWithEmailAndPassword(auth, email, password);
-      navigate("/tasks");
+      navigate("../task/Tasks");
     } catch (error) {
       console.error("Error al registrarse:", error.message);
     }

@@ -1,6 +1,6 @@
 // src/components/Tasks.js
 import React, { useEffect, useState } from "react";
-import { auth, db } from "../firebaseConfig";
+import { auth, db } from "../../firebaseConfig";
 import {
   collection,
   addDoc,

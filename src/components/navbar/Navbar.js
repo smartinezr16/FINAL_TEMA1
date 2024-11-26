@@ -1,7 +1,7 @@
 // src/components/Navbar.js
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { auth } from "../firebaseConfig";
+import { auth } from "../../firebaseConfig";
 import "./Navbar.css";
 
 const Navbar = () => {
