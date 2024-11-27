@@ -1,7 +1,7 @@
 // src/App.js
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Login from "./components/login/Login";
+import Login from "./components/login/LoginLogic";
 import Signup from "./components/signup/Signup";
 import Tasks from "./components/task/Tasks"; // Página principal después de iniciar sesión
 import Navbar from "./components/navbar/Navbar"; // Menú superior
