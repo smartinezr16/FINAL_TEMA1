@@ -1,6 +1,8 @@
 
 Estudiante 1: Santiago Martínez Rodríguez CODIGO: 0000293970
+
 Estudiante 2: Esteban Hernández CODIGO: 0000307597
+
 Estudiante 3: Juan Manuel Deutsch CODIGO: 0000242530
 
 
